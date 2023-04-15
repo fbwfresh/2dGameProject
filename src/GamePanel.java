@@ -29,7 +29,7 @@ public class GamePanel extends JPanel implements Runnable{
         this.setPreferredSize(new Dimension(screenWidth,screenHeight));
         this.setBackground(Color.black);
         this.setDoubleBuffered(true);  //can help with rendering performance
-        this.addKeyListener(keyHandler);
+        this.addKeyListener(keyHandler); //Listening for the button presses for movement on game panel
         this.setFocusable(true); //With this the gamePanel can be focused to recieve key input
     }
 public void startGameThread(){
@@ -98,9 +98,10 @@ public void startGameThread(){
     public void paintComponent(Graphics graphics){
         super.paintComponent(graphics);
 
+
         //Graphics2D class extends Graphics class to provide more control over geometry, coordinate transformations,color management, and text layout
         Graphics2D graphics2D = (Graphics2D) graphics;
-        graphics2D.setColor(Color.white);
+        graphics2D.setColor(Color.YELLOW);
         graphics2D.fillRect(playerX,playerY,tileSize,tileSize);
         graphics2D.dispose(); //saves memory
     }
