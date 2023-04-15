@@ -7,7 +7,7 @@ public class GamePanel extends JPanel implements Runnable{
     //SCREEN SETTINGS
     final int orginalTitleSize = 16; //16x16 tile for the main character, tile size for a lot of things
     final int scale = 3;
-    final int tileSize = orginalTitleSize * scale; //48x48
+  public final int tileSize = orginalTitleSize * scale; //48x48
 
     //4 by 3 ratio
     final int maxScreenColumn = 16;
@@ -17,6 +17,7 @@ public class GamePanel extends JPanel implements Runnable{
 
     KeyHandler keyHandler = new KeyHandler();
     Thread gameThread;
+    Player player = new Player(this,keyHandler);
 
     //Set player default position
     int playerX = 100;
@@ -82,16 +83,7 @@ public void startGameThread(){
     }
 
     public void update(){
-    if (keyHandler.upPressed == true){
-        playerY -= playerSpeed;
-    } else if (keyHandler.downPressed == true) {
-        playerY += playerSpeed;
-    } else if (keyHandler.leftPressed == true){
-        playerX -= playerSpeed;
-    } else if(keyHandler.rightPressed == true){
-        playerX += playerSpeed;
-    }
-
+     player.update();
     }
 
     //Graphics is a class that has many functions to draw objects on the screen
@@ -101,8 +93,7 @@ public void startGameThread(){
 
         //Graphics2D class extends Graphics class to provide more control over geometry, coordinate transformations,color management, and text layout
         Graphics2D graphics2D = (Graphics2D) graphics;
-        graphics2D.setColor(Color.YELLOW);
-        graphics2D.fillRect(playerX,playerY,tileSize,tileSize);
+        player.draw(graphics2D);
         graphics2D.dispose(); //saves memory
     }
 }
