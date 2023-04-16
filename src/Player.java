@@ -17,8 +17,8 @@ public class Player extends Entity {
     }
 
     public void setDefaultValues(){
-        x=10;
-        y=10;
+        x=0;
+        y=144;
         speed=4;
         direction = "right";
     }
@@ -87,14 +87,14 @@ public class Player extends Entity {
     }
     public void getPlayerImage(){
         try {
-             up1 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/untitled/src/Player/zup1.png"));
-             up2 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/untitled/src/Player/zup2.png"));
-             down1 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/untitled/src/Player/zdown1.png"));
-             down2 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/untitled/src/Player/zdown2.png"));
-             left1 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/untitled/src/Player/zleft1.png"));
-             left2 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/untitled/src/Player/zleft2.png"));
-             right1 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/untitled/src/Player/zright1.png"));
-             right2 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/untitled/src/Player/zright2.png"));
+             up1 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Player/zup1.png"));
+             up2 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Player/zup2.png"));
+             down1 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Player/zdown1.png"));
+             down2 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Player/zdown2.png"));
+             left1 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Player/zleft1.png"));
+             left2 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Player/zleft2.png"));
+             right1 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Player/zright1.png"));
+             right2 = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Player/zright2.png"));
 
         } catch (IOException e) {
             throw new RuntimeException(e);

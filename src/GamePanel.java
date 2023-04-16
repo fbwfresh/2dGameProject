@@ -10,19 +10,15 @@ public class GamePanel extends JPanel implements Runnable{
   public final int tileSize = orginalTitleSize * scale; //48x48
 
     //4 by 3 ratio
-    final int maxScreenColumn = 16;
-    final int maxScreenRow = 12;
-    final int screenWidth = tileSize * maxScreenColumn; //768 pixels
-    final int screenHeight = tileSize * maxScreenRow; //576  pixels
+    public final int maxScreenColumn = 16;
+    public final int maxScreenRow = 12;
+    public final int screenWidth = tileSize * maxScreenColumn; //768 pixels
+    public final int screenHeight = tileSize * maxScreenRow; //576  pixels
 
     KeyHandler keyHandler = new KeyHandler();
     Thread gameThread;
     Player player = new Player(this,keyHandler);
-
-    //Set player default position
-    int playerX = 100;
-    int playerY = 100;
-    int playerSpeed = 4;
+    TileManager tileManager = new TileManager(this);
 
     int FPS = 60;
 
@@ -93,6 +89,7 @@ public void startGameThread(){
 
         //Graphics2D class extends Graphics class to provide more control over geometry, coordinate transformations,color management, and text layout
         Graphics2D graphics2D = (Graphics2D) graphics;
+        tileManager.draw(graphics2D);
         player.draw(graphics2D);
         graphics2D.dispose(); //saves memory
     }
