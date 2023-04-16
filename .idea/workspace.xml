@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4610c258-9354-487a-8c1c-c709881594d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/untitled.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Player/zdown1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Player/zdown2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Player/zleft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Player/zleft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Player/zright1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Player/zright2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Player/zup1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Player/zup2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681521459545</updated>
       <workItem from="1681521460953" duration="6738000" />
-      <workItem from="1681589634309" duration="9123000" />
+      <workItem from="1681589634309" duration="11910000" />
     </task>
     <servers />
   </component>
