@@ -5,43 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4610c258-9354-487a-8c1c-c709881594d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/res/Tiles/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Tiles/cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Tiles/cloud2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Tiles/grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Tiles/partialClouds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Tiles/sky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Tiles/skybackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Tiles/skynight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Tiles/tile110.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Tiles/tile35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Tiles/tile38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Tiles/tile52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Tiles/tile98.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tile/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/Down1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/Down1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/Up1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/Up1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/down2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/down2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/left1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/left1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/left2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/left2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/right1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/right1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/right2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/right2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/up2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/up2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/zdown1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/zdown1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/zdown2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/zdown2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/zleft1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/zleft1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/zleft2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/zleft2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/zright1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/zright1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/zright2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/zright2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/zup1.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/zup1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Player/zup2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Player/zup2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/res/untitled.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681521459545</updated>
       <workItem from="1681521460953" duration="6738000" />
-      <workItem from="1681589634309" duration="28554000" />
+      <workItem from="1681589634309" duration="30160000" />
     </task>
     <servers />
   </component>
@@ -140,7 +104,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>17</line>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

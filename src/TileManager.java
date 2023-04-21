@@ -63,33 +63,33 @@ public class TileManager {
     public void getTileImage(){
         try{
             tiles[0] = new Tile();
-            tiles[0].image = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Tiles/tile98.png"));
+            tiles[0].image = ImageIO.read(new File("res/Tiles/tile98.png"));
 
             tiles[1] = new Tile();
-            tiles[1].image = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Tiles/cloud.png"));
+            tiles[1].image = ImageIO.read(new File("res/Tiles/cloud.png"));
 
             tiles[2] = new Tile();
-            tiles[2].image = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Tiles/skynight.png"));
+            tiles[2].image = ImageIO.read(new File("res/Tiles/skynight.png"));
 
             tiles[3] = new Tile();
-            tiles[3].image = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Tiles/tile52.png"));
+            tiles[3].image = ImageIO.read(new File("res/Tiles/tile52.png"));
 
             tiles[4] = new Tile();
-            tiles[4].image = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Tiles/grass.png"));
+            tiles[4].image = ImageIO.read(new File("res/Tiles/grass.png"));
             tiles[5] = new Tile();
-            tiles[5].image = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Tiles/cloud2.png"));
+            tiles[5].image = ImageIO.read(new File("res/Tiles/cloud2.png"));
 
             tiles[6] = new Tile();
-            tiles[6].image = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Tiles/5.png"));
+            tiles[6].image = ImageIO.read(new File("res/Tiles/5.png"));
 
             tiles[7] = new Tile();
-            tiles[7].image = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Tiles/partialClouds.png"));
+            tiles[7].image = ImageIO.read(new File("res/Tiles/partialClouds.png"));
 
             tiles[8] = new Tile();
-            tiles[8].image = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Tiles/skybackground.png"));
+            tiles[8].image = ImageIO.read(new File("res/Tiles/skybackground.png"));
 
             tiles[9] = new Tile();
-            tiles[9].image = ImageIO.read(new File("/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Tiles/tile110.png"));
+            tiles[9].image = ImageIO.read(new File("res/Tiles/tile110.png"));
         }catch (IOException e){
             e.printStackTrace();
         }
