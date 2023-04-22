@@ -5,12 +5,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4610c258-9354-487a-8c1c-c709881594d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Tiles/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Tiles/sand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Tiles/tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Tiles/wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Tiles/water.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/Down1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/Down1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/Up1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/Up1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/down2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/down2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/left1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/left1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/left2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/left2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/right1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/right1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/right2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/right2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/up2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/up2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/zdown1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/zdown1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/zdown2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/zdown2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/zleft1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/zleft1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/zleft2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/zleft2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/zright1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/zright1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/zright2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/zright2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/zup1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/zup1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Player/zup2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Player/zup2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Tiles/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Tiles/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Tiles/cloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Tiles/cloud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Tiles/cloud2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Tiles/cloud2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Tiles/grass.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Tiles/grass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Tiles/partialClouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Tiles/partialClouds.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Tiles/sky.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Tiles/sky.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Tiles/skybackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Tiles/skybackground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Tiles/skynight.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Tiles/skynight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Tiles/tile110.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Tiles/tile110.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Tiles/tile35.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Tiles/tile35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Tiles/tile38.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Tiles/tile38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Tiles/tile52.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Tiles/tile52.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Tiles/tile98.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Tiles/ground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map01" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/worldMap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map1" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/map1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Game">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,7 +99,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "/Users/macuser/Desktop/Kenzie/Term4/My2DGame/res/Tiles",
+    "last_opened_file_path": "/Users/macuser/Desktop/Kenzie/Term4/My2DGame/untitled/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -44,26 +108,43 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Tile" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/res/Tiles" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/res/maps" />
-      <recent name="$PROJECT_DIR$/res/src/Tiles" />
-      <recent name="$PROJECT_DIR$/untitled/src/Player" />
+      <recent name="$PROJECT_DIR$/untitled/src" />
+      <recent name="$PROJECT_DIR$/src/resources" />
+      <recent name="$PROJECT_DIR$/Games" />
+      <recent name="$PROJECT_DIR$/Game" />
+      <recent name="$PROJECT_DIR$/Game/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/Tiles" />
+      <recent name="$PROJECT_DIR$/src/resources" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/res" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="main" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Tile" />
+      <recent name="Entity" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="My2DGame" />
@@ -71,9 +152,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Game [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Game" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Gradle.Game [dependencies]" />
       </list>
     </recent_temporary>
   </component>
@@ -86,7 +190,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681521459545</updated>
       <workItem from="1681521460953" duration="6738000" />
-      <workItem from="1681589634309" duration="30160000" />
+      <workItem from="1681589634309" duration="44192000" />
     </task>
     <servers />
   </component>
@@ -94,20 +198,6 @@
     <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TileManager.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="GamePanel" memberName="FPS" />

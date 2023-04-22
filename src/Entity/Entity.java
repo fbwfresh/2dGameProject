@@ -13,7 +13,7 @@ public class Entity {
     public BufferedImage right1;
     public BufferedImage right2;
     public String direction;
-    public int x,y;
+    public int worldX,worldY;
     public int speed;
 
     public int spriteCounter = 0;
