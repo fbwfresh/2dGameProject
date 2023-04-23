@@ -10,30 +10,16 @@ public class TileManager {
     GamePanel gamePanel;
     Tile[] tiles;
     int mapTileNumber[][];
-//    int[][] map = {
-//            {1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1},
-//            {1, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 2, 1},
-//            {4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4},
-//            {4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4},
-//            {4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4},
-//            {4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4},
-//            {4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4},
-//
-//    };
-
 
     public TileManager(GamePanel gamePanel){
         this.gamePanel = gamePanel;
         tiles = new Tile[10];
         getTileImage();
         mapTileNumber = new int[gamePanel.maxWorldCol][gamePanel.maxWorldRow];
-        //ToDO change this to the world map instead of just the one panel map
         loadMap("src/resources/worldMap");
     }
     public void loadMap(String filePath){
         try {
-//TODO update the map now that I am able to use this code
-
             File file = new File(filePath);
             FileInputStream fileInputStream = new FileInputStream(file);
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(fileInputStream));
@@ -69,10 +55,10 @@ public class TileManager {
             tiles[1].image = ImageIO.read(new File("src/resources/Tiles/earth.png"));
 
             tiles[2] = new Tile();
-            tiles[2].image = ImageIO.read(new File("src/resources/Tiles/skynight.png"));
+            tiles[2].image = ImageIO.read(new File("src/resources/Tiles/rightcornerground.png"));
 
             tiles[3] = new Tile();
-            tiles[3].image = ImageIO.read(new File("src/resources/Tiles/tile52.png"));
+            tiles[3].image = ImageIO.read(new File("src/resources/Tiles/stone.png"));
 
             tiles[4] = new Tile();
             tiles[4].image = ImageIO.read(new File("src/resources/Tiles/grass.png"));
@@ -112,82 +98,8 @@ public class TileManager {
 
             if(worldCol == gamePanel.maxWorldCol){
                 worldCol = 0;
-
                 worldRow++;
-
             }
         }
-//
-//        for (int i = 0; i < gamePanel.maxScreenColumn; i++) {
-//            graphics2D.drawImage(tiles[6].image, x, y, gamePanel.tileSize, gamePanel.tileSize, null);
-//            graphics2D.drawImage(tiles[2].image, x, y, gamePanel.tileSize, gamePanel.tileSize, null);
-//
-//            graphics2D.drawImage(tiles[8].image, x, 48, gamePanel.tileSize, gamePanel.tileSize, null);
-//            graphics2D.drawImage(tiles[9].image, x, 48, gamePanel.tileSize, gamePanel.tileSize, null);
-//
-//            x += 48;
-//        }
-//
-//
-//        x=0;
-//        y+=96;
-//        for (int i = 0; i < gamePanel.maxScreenColumn; i++) {
-//            graphics2D.drawImage(tiles[4].image,x,y,gamePanel.tileSize, gamePanel.tileSize,null);
-//            x+=48;
-//        }
-//        x = 0;
-//        y +=48;
-//        for (int i = 0; i < gamePanel.maxScreenColumn; i++) {
-//            graphics2D.drawImage(tiles[4].image,x,y,gamePanel.tileSize, gamePanel.tileSize,null);
-//            x+=48;
-//        }
-//        x = 0;
-//        y +=48;
-//        for (int i = 0; i < gamePanel.maxScreenColumn; i++) {
-//            graphics2D.drawImage(tiles[4].image,x,y,gamePanel.tileSize, gamePanel.tileSize,null);
-//            x+=48;
-//        }
-//        x = 0;
-//        y +=48;
-//        for (int i = 0; i < gamePanel.maxScreenColumn; i++) {
-//            graphics2D.drawImage(tiles[4].image,x,y,gamePanel.tileSize, gamePanel.tileSize,null);
-//            x+=48;
-//        }
-//        x = 0;
-//        y +=48;
-//        for (int i = 0; i < gamePanel.maxScreenColumn; i++) {
-//            graphics2D.drawImage(tiles[4].image,x,y,gamePanel.tileSize, gamePanel.tileSize,null);
-//            x+=48;
-//        }x = 0;
-//        y +=48;
-//        for (int i = 0; i < gamePanel.maxScreenColumn; i++) {
-//            graphics2D.drawImage(tiles[4].image,x,y,gamePanel.tileSize, gamePanel.tileSize,null);
-//            x+=48;
-//        }
-//        x = 0;
-//        y +=48;
-//        for (int i = 0; i < gamePanel.maxScreenColumn; i++) {
-//            graphics2D.drawImage(tiles[4].image,x,y,gamePanel.tileSize, gamePanel.tileSize,null);
-//            x+=48;
-//        }
-//        x = 0;
-//        y +=48;
-//        for (int i = 0; i < gamePanel.maxScreenColumn; i++) {
-//            graphics2D.drawImage(tiles[4].image,x,y,gamePanel.tileSize, gamePanel.tileSize,null);
-//            x+=48;
-//        }
-//        x = 0;
-//        y +=48;
-//        for (int i = 0; i < gamePanel.maxScreenColumn; i++) {
-//            graphics2D.drawImage(tiles[0].image,x,y,gamePanel.tileSize, gamePanel.tileSize,null);
-//            x+=48;
-//        }
-//        x = 0;
-//        y +=48;
-//        for (int i = 0; i < gamePanel.maxScreenColumn; i++) {
-//            graphics2D.drawImage(tiles[3].image,x,y,gamePanel.tileSize, gamePanel.tileSize,null);
-//            x+=48;
-//        }
-
     }
 }
